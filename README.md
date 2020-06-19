@@ -58,15 +58,15 @@ Cucumber-jvm-reports will be created in Target folder as cucumber-report-html (p
 
 # Test observations and implementations
 1. /city/{city}/users endpoint:
-Returns 200 status code with correct information in the body when valid test data is passed
+```Returns 200 status code with correct information in the body when valid test data is passed
 Returns 200 with empty Json response when invalid data is passed. 
 There is no information mentioned in swagger for scenario when {city} request is blank but the endpoint returns 404 Not Found - added and tested
-
+```
 2. /user/{id} endpoint:
-Returns 200 if id exists
+```Returns 200 if id exists
 Returns 404 if id not exists. 
 Returns 404 if nothing is passed for {id} -  added and tested
-
+```
 3. Response data of all users from /users endpoint is saved in JsonArray for comparision/assertions later.
 
 4. Above users data from saved json array is asserted with endpoint /user/{id} for scenario where the test is run for all the user ids.
