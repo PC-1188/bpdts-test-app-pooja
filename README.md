@@ -79,7 +79,7 @@ While comparision found there is a data mismatch for latitude and longitude fiel
 7. We have used soft assertions. At the end of tests run, if assertions failure is present it log the details in test reports.
 
 
-# Other possible solutions: 
+# Other possible solution: 
 These API can also be automated and tested via Postman-Newman Integration API framework which could be run via CLI 
 Due to time constraint was not able to perform the Proof of concept, but please find below details of implementation.
 ### Prerequisite:
